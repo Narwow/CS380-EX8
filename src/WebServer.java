@@ -46,6 +46,7 @@ public class WebServer {
 							// output file
 							while (outputString != null) {
 								pw.print(outputString + "\r\n");
+								System.out.println(outputString);
 								outputString = br2.readLine();
 							}
 
@@ -65,6 +66,7 @@ public class WebServer {
 							// output file
 							while (outputString != null) {
 								pw.print(outputString + "\r\n");
+								System.out.println(outputString);
 								outputString = br2.readLine();
 							}
 
